@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="vl4rlrq7l4le0pdat_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::lvv71lu28sql1ty6g_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:PDV.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::p9zb57r2tqoc4x9t_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:AClassRef.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PDV:AClassRef.TAClassRef" />
+    </reference>
+    <reference referencedUin="design:view:::m5d0800pztquyunle_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:RepositorioItem.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PDV:RepositorioItem.TRepositorioItem" />
+    </reference>
+    <reference referencedUin="design:view:::nmng5jlduuqv4x20n_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:Venda.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PDV:Venda.TVenda" />
+    </reference>
+    <reference referencedUin="design:view:::bcsaatr80vq7a9g0o_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:ControleVenda.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PDV:ControleVenda.TControleVenda" />
+    </reference>
+    <reference referencedUin="design:view:::r6qnbajhhwqhukyte_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:Item.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PDV:Item.TItem" />
+    </reference>
+    <reference referencedUin="design:view:::l4jsjt3zixq6ibvci_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:TelaPrincipal.TForm2" />
+      <reference referencedUin="delphi:e_class:src:PDV:TelaPrincipal.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::c7j6430tyxqwbhgpq_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:PDV:Fachada.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PDV:Fachada.TFachada" />
+    </reference>
+    <reference referencedUin="design:view:::jeq2sbjxqqq1g01f_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::to00xm1auht_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::471s3a9np04t806qs_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

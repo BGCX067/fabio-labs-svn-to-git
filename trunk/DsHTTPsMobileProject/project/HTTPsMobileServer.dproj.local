@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/03/20 14:38:42.000.508,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/04/05 14:31:13.000.640,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2013/04/05 14:31:13.000.500,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2013/04/05 14:31:13.000.720,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2013/04/05 14:45:15.000.561,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/04/05 14:51:44.000.447,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\UDMData.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/04/05 14:51:44.000.447,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\UDMData.dfm=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2013/04/05 14:55:39.000.124,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\WebModuleUnit.dfm=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2013/04/05 14:55:39.000.124,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\WebModuleUnit.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2013/04/05 14:56:00.000.135,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\FHTTPServer.dfm=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\FormUnit1.dfm</Transaction>
+    <Transaction>2013/04/05 14:56:00.000.135,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\FHTTPServer.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2013/04/05 14:56:07.000.575,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\ServerMethodsUnit.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2013/04/05 14:56:40.000.039,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\DsHTTPsMobileProject\project\HTTPsMobileServer.dproj=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

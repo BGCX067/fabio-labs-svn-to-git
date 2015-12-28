@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="l4jsjt3zixq6ibvci_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PDV:TelaPrincipal.TForm2">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnDescricaoItem" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnTotalVenda" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnQTD" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnPrecoUnitario" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnTotalItem" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnInfoGeral" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.Panel8" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.Panel9" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.Panel10" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.Panel11" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.Panel12" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnCodigo" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.Panel15" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnCumpoFiscal" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.Panel13" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.reCupomFiscal" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.pnLogo" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.imLogo" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.edCodigo" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.edCodigoExit(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.TForm2.venda" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.setDescricaoItem(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.setTotalVenda(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.setQTD(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.setPrecoUnitario(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.setTotalItem(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.setInfoGeral(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:TelaPrincipal.TForm2.setCupomFiscal(System.Classes.TStringList)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PDV:TelaPrincipal.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:PDV:TelaPrincipal.@unitclass.Form2" />
+      <reference referencedUin="delphi:e_field:src:PDV:TelaPrincipal.@unitclass.Form2" />
+    </reference>
+  </view>
+</nodeSet>

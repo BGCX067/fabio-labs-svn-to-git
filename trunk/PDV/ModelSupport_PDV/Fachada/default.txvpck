@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="c7j6430tyxqwbhgpq_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PDV:Fachada.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PDV:Fachada.TFachada">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,118,99" />
+      <reference referencedUin="delphi:e_method:src:PDV:Fachada.TFachada.addItem(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:Fachada.TFachada.addItem(ref@Venda.TVenda,System.string)" />
+    </reference>
+  </view>
+</nodeSet>

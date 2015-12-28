@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="nmng5jlduuqv4x20n_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PDV:Venda.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PDV:Venda.TVenda">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,163,267" />
+      <reference referencedUin="delphi:e_field:src:PDV:Venda.TVenda.FId" />
+      <reference referencedUin="delphi:e_field:src:PDV:Venda.TVenda.FItens" />
+      <reference referencedUin="delphi:e_method:src:PDV:Venda.TVenda.getTotalVenda()" />
+      <reference referencedUin="delphi:e_method:src:PDV:Venda.TVenda.getItens()" />
+      <reference referencedUin="delphi:e_property:src:PDV:Venda.TVenda.Id" />
+      <reference referencedUin="delphi:e_property:src:PDV:Venda.TVenda.Itens" />
+      <reference referencedUin="delphi:e_method:src:PDV:Venda.TVenda.create()" />
+      <reference referencedUin="delphi:e_field:src:PDV:Venda.TVenda.FData" />
+      <reference referencedUin="delphi:e_method:src:PDV:Venda.TVenda.getNumeroCupom()" />
+      <reference referencedUin="delphi:e_method:src:PDV:Venda.TVenda.getData()" />
+      <reference referencedUin="delphi:e_method:src:PDV:Venda.TVenda.getCNPF()" />
+      <reference referencedUin="delphi:e_property:src:PDV:Venda.TVenda.Data" />
+    </reference>
+  </view>
+</nodeSet>

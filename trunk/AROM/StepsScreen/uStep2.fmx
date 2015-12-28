@@ -1,0 +1,75 @@
+inherited fStep2: TfStep2
+  Caption = 'Step 2 - Complete your connection'
+  Position = poScreenCenter
+  inherited PnButtons: TPanel
+    Position.Point = '(0,352)'
+    TabOrder = 0
+  end
+  inherited btnNext: TButton
+    Position.Point = '(494,358)'
+    OnClick = btnNextClick
+    TabOrder = 1
+  end
+  inherited btnCancel: TButton
+    Position.Point = '(8,358)'
+    TabOrder = 2
+  end
+  object lbAliasName: TLabel
+    Position.Point = '(15,24)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 3
+    Text = 'Alias Name'
+  end
+  object lbMyAliasName: TLabel
+    Position.Point = '(16,40)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 12
+    Text = 'lbMyAliasName'
+  end
+  object edUser: TEdit
+    Position.Point = '(16,80)'
+    Width = 100.000000000000000000
+    Height = 22.000000000000000000
+    OnExit = edUserExit
+    TabOrder = 13
+    ReadOnly = False
+    Password = False
+    Text = 'SYSDBA'
+  end
+  object edPassword: TEdit
+    Position.Point = '(16,128)'
+    Width = 100.000000000000000000
+    Height = 22.000000000000000000
+    OnExit = edPasswordExit
+    TabOrder = 14
+    ReadOnly = False
+    Password = True
+    Text = 'masterkey'
+  end
+  object lbUser: TLabel
+    Position.Point = '(16,64)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 15
+    Text = 'lbUser'
+  end
+  object lbPassword: TLabel
+    Position.Point = '(16,112)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 16
+    Text = 'lbPassword'
+  end
+  object btnTestConnection: TButton
+    Position.Point = '(16,168)'
+    Width = 100.000000000000000000
+    Height = 22.000000000000000000
+    OnClick = btnTestConnectionClick
+    TabOrder = 17
+    StaysPressed = False
+    IsPressed = False
+    Text = 'Test Conection'
+  end
+end

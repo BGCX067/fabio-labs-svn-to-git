@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014/03/25 23:49:09.936,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/03/25 23:50:02.823,C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\Academia\Firemonkey\UMain.fmx=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2014/03/25 23:50:02.823,C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\Academia\Firemonkey\UMain.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/03/25 23:50:13.114,C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\Academia\Firemonkey\Academia.dproj=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

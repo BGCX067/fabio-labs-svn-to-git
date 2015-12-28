@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sysconfig>
+    <database>
+        <engine>Firebird</engine>
+        <file>C:\DB\GESTAO_GAMA-PE.GDB</file>
+        <user>sysdba</user>
+        <password>masterkey</password>
+    </database>
+</sysconfig>

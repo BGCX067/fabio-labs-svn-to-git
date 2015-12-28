@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="bcsaatr80vq7a9g0o_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PDV:ControleVenda.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PDV:ControleVenda.TControleVenda">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,125,129" />
+      <reference referencedUin="delphi:e_method:src:PDV:ControleVenda.TControleVenda.addItem(ref@Venda.TVenda,Item.TItem)" />
+      <reference referencedUin="delphi:e_method:src:PDV:ControleVenda.TControleVenda.addItem(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:ControleVenda.TControleVenda.addItem(ref@Venda.TVenda,System.string)" />
+      <reference referencedUin="delphi:e_method:src:PDV:ControleVenda.TControleVenda.novaVenda()" />
+    </reference>
+  </view>
+</nodeSet>

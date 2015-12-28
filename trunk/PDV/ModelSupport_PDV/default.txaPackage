@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="wev0hyyslhj_n">
+    <property name="$metaclass" value="Actor" />
+    <property name="$name" value="Operador" />
+    <link uin="brrierv0i5hgfs01f_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link1" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::wev0hyyslhj_n" role="Client" />
+      <participant referencedUin="design:node:::q1n0qrv0i5h5spsmn_n" role="Supplier" />
+    </link>
+    <link uin="ts1drl39coe_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link2" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::wev0hyyslhj_n" role="Client" />
+      <participant referencedUin="design:node:::97sj869wmio_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="p1d7y1blt6k_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Iniciar Venda" />
+    <link uin="sckff988i1207sgco_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link1" />
+      <participant referencedUin="design:node:::p1d7y1blt6k_n" role="Client" />
+      <participant referencedUin="design:node:::r000w988i127060uf_n" role="Supplier" />
+    </link>
+    <node uin="wr8eol1z5qs_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Adicionar venda ao Banco de dados" />
+    </node>
+    <link uin="fzk0toq9kms7truyj_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link2" />
+      <participant referencedUin="design:node:::p1d7y1blt6k_n" role="Client" />
+      <participant referencedUin="design:node:::q1n0qrv0i5h5spsmn_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="r000w988i127060uf_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Adicionar um Item" />
+    <node uin="5difhu2hbkl33neum_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Adicionar Item ao Banco de dados" />
+    </node>
+    <node uin="y7l09dvynup_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Enviar o item à impressora" />
+    </node>
+    <node uin="uggkpah905m_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Axibir item na tela" />
+    </node>
+  </node>
+  <node uin="008g01g19v61hui0o_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Informar Quantidade" />
+    <link uin="qrc8pqnmw2r_l">
+      <property name="$metaclass" value="Extends Link" />
+      <property name="$name" value="Extends Link1" />
+      <participant referencedUin="design:node:::008g01g19v61hui0o_n" role="Client" />
+      <participant referencedUin="design:node:::q1n0qrv0i5h5spsmn_n" role="Supplier" />
+    </link>
+    <link uin="09orge1wewq_l">
+      <property name="$metaclass" value="Extends Link" />
+      <property name="$name" value="Extends Link2" />
+      <participant referencedUin="design:node:::008g01g19v61hui0o_n" role="Client" />
+      <participant referencedUin="design:node:::97sj869wmio_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="q1n0qrv0i5h5spsmn_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Pistolar código de Barras" />
+  </node>
+  <node uin="97sj869wmio_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Digitar Item" />
+    <link uin="zc7s52sa00n_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link1" />
+      <participant referencedUin="design:node:::97sj869wmio_n" role="Client" />
+      <participant referencedUin="design:node:::p1d7y1blt6k_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="cz0o7wspddn_n">
+    <property name="$metaclass" value="Actor" />
+    <property name="$name" value="Operador" />
+    <link uin="zb7pu7dmgas_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link1" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::cz0o7wspddn_n" role="Client" />
+      <participant referencedUin="design:node:::g1im946atsl_n" role="Supplier" />
+    </link>
+    <link uin="ga01phv5ubr_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link2" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::cz0o7wspddn_n" role="Client" />
+      <participant referencedUin="design:node:::wzwlhh09bok_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="0lycuki063q_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Informar Quantidade" />
+    <link uin="fj100xk0zqg_l">
+      <property name="$metaclass" value="Extends Link" />
+      <property name="$name" value="Extends Link1" />
+      <participant referencedUin="design:node:::0lycuki063q_n" role="Client" />
+      <participant referencedUin="design:node:::g1im946atsl_n" role="Supplier" />
+    </link>
+    <link uin="006bl8jjmyt_l">
+      <property name="$metaclass" value="Extends Link" />
+      <property name="$name" value="Extends Link2" />
+      <participant referencedUin="design:node:::0lycuki063q_n" role="Client" />
+      <participant referencedUin="design:node:::wzwlhh09bok_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="2de9hh3njzs_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Adicionar um Item" />
+    <node uin="ov8mqpav7zp_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Adicionar Item ao Banco de dados" />
+    </node>
+    <node uin="lnxv09yzhpp_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Enviar o item à impressora" />
+    </node>
+    <node uin="24gpd308mdk_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Axibir item na tela" />
+    </node>
+    <link uin="07eh0yofpij_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link1" />
+      <participant referencedUin="design:node:::2de9hh3njzs_n" role="Client" />
+      <participant referencedUin="design:node:::g1im946atsl_n" role="Supplier" />
+    </link>
+    <link uin="fbuqjjfg465b37wl_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link2" />
+      <participant referencedUin="design:node:::2de9hh3njzs_n" role="Client" />
+      <participant referencedUin="design:node:::wzwlhh09bok_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="g1im946atsl_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Pistolar código de Barras" />
+  </node>
+  <node uin="wzwlhh09bok_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Digitar Item" />
+    <link uin="d7yylgq9ute_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link1" />
+      <participant referencedUin="design:node:::wzwlhh09bok_n" role="Client" />
+    </link>
+  </node>
+  <node uin="3s830zh0b6xwv0bt_n">
+    <property name="$metaclass" value="Actor" />
+    <property name="$name" value="Operador" />
+    <link uin="j8vtdzony08fgsmjp_l">
+      <property name="$metaclass" value="Generalization Link" />
+      <property name="$name" value="Generalization Link1" />
+      <participant referencedUin="design:node:::3s830zh0b6xwv0bt_n" role="Client" />
+    </link>
+    <link uin="00ijs9zblj9yn2cot_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link1" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::3s830zh0b6xwv0bt_n" role="Client" />
+      <participant referencedUin="design:node:::dqli39zblj9d6o0on_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="dqli39zblj9d6o0on_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Finalizar Venda" />
+    <link uin="91mqi0wn2gfrlk9zo_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link1" />
+      <participant referencedUin="design:node:::dqli39zblj9d6o0on_n" role="Client" />
+      <participant referencedUin="design:node:::4udwh0wn2gfwsxeff_n" role="Supplier" />
+    </link>
+    <node uin="4c0tgh3yv9qe4u0rg_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Enviar totalizações para impressora" />
+    </node>
+    <node uin="9spnxmkw1nm_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Salvar Totalizações da venda" />
+    </node>
+    <node uin="f2pbqnbyltf_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Enviar totalizações para tela" />
+    </node>
+  </node>
+  <node uin="4udwh0wn2gfwsxeff_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Informar Forma Pagamento" />
+  </node>
+  <node uin="0vyv9xqd360mpouhg_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="Solitar valor pago" />
+    <link uin="er98bxqd360m598ho_l">
+      <property name="$metaclass" value="Includes Link" />
+      <property name="$name" value="Includes Link1" />
+      <participant referencedUin="design:node:::0vyv9xqd360mpouhg_n" role="Client" />
+      <participant referencedUin="design:node:::dqli39zblj9d6o0on_n" role="Supplier" />
+    </link>
+    <node uin="wo3c5pw8uzad2an7k_n">
+      <property name="$metaclass" value="Extension Point" />
+      <property name="$name" value="Calcular e exibir troco" />
+    </node>
+  </node>
+</nodeSet>

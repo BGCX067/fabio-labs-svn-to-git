@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="r6qnbajhhwqhukyte_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PDV:Item.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PDV:Item.TItem">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:PDV:Item.TItem.FDescricao" />
+      <reference referencedUin="delphi:e_field:src:PDV:Item.TItem.FValorUnitario" />
+      <reference referencedUin="delphi:e_field:src:PDV:Item.TItem.FId" />
+      <reference referencedUin="delphi:e_field:src:PDV:Item.TItem.FQuantidade" />
+      <reference referencedUin="delphi:e_method:src:PDV:Item.TItem.getValorTotal()" />
+      <reference referencedUin="delphi:e_method:src:PDV:Item.TItem.getValorUnitario()" />
+      <reference referencedUin="delphi:e_method:src:PDV:Item.TItem.getQuantidade()" />
+      <reference referencedUin="delphi:e_property:src:PDV:Item.TItem.Id" />
+      <reference referencedUin="delphi:e_property:src:PDV:Item.TItem.Descricao" />
+      <reference referencedUin="delphi:e_property:src:PDV:Item.TItem.Quantidade" />
+      <reference referencedUin="delphi:e_property:src:PDV:Item.TItem.ValorUnitario" />
+    </reference>
+  </view>
+</nodeSet>

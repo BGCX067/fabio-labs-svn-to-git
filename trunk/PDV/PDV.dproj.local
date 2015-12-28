@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/11 22:12:55.000.359,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/12 02:28:32.000.470,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2014/10/12 02:28:45.000.799,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit3.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Fachada.pas</Transaction>
+    <Transaction>2014/10/12 02:30:10.000.466,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.dfm=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\TelaPrincipal.dfm</Transaction>
+    <Transaction>2014/10/12 02:30:10.000.466,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\TelaPrincipal.pas</Transaction>
+    <Transaction>2014/10/12 02:33:45.000.675,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/12 02:34:22.000.308,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\AClassRef.pas</Transaction>
+    <Transaction>2014/10/12 02:34:48.000.225,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/12 02:34:57.000.408,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Venda.pas</Transaction>
+    <Transaction>2014/10/12 02:37:06.000.905,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/12 02:37:12.000.953,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Item.pas</Transaction>
+    <Transaction>2014/10/12 02:53:22.000.642,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/12 02:53:31.000.188,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit2.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\ControleVenda.pas</Transaction>
+    <Transaction>2014/10/12 03:12:10.000.970,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\TelaPrincipal.pas=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\TelaPrincipal.pas</Transaction>
+    <Transaction>2014/10/12 03:12:10.000.970,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\TelaPrincipal.dfm=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\TelaPrincipal.dfm</Transaction>
+    <Transaction>2014/10/12 03:12:15.000.538,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Venda.pas=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\Venda.pas</Transaction>
+    <Transaction>2014/10/12 03:12:19.000.636,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Fachada.pas=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\Fachada.pas</Transaction>
+    <Transaction>2014/10/12 03:12:21.000.512,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\ControleVenda.pas=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ControleVenda.pas</Transaction>
+    <Transaction>2014/10/12 03:12:23.000.082,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\AClassRef.pas=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\AClassRef.pas</Transaction>
+    <Transaction>2014/10/12 03:12:24.000.402,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Item.pas=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\Item.pas</Transaction>
+    <Transaction>2014/10/12 03:12:34.000.043,C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Project2.dproj=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\PDV.dproj</Transaction>
+    <Transaction>2014/10/12 10:30:22.000.839,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\Unit1.pas</Transaction>
+    <Transaction>2014/10/12 10:30:38.000.209,C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\RepositorioItem.pas=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\Unit1.pas</Transaction>
+    <Transaction>2014/10/12 15:57:22.000.315,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 15:57:28.000.182,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:07.000.534,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\AClassRef\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:07.000.374,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\PDV\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:07.000.958,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\ControleVenda\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:07.000.867,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Venda\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:07.000.717,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\RepositorioItem\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:07.000.213,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Use Case Diagram1.txvuse</Transaction>
+    <Transaction>2014/10/12 15:58:08.000.187,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Item\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:08.000.382,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\TelaPrincipal\default.txvpck</Transaction>
+    <Transaction>2014/10/12 15:58:08.000.463,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Fachada\default.txvpck</Transaction>
+    <Transaction>2014/10/12 16:10:21.000.219,c:\documents and settings\administrador\meus documentos\fabio-labs\pdv\modelsupport_pdv\use case diagram1.txvuse=</Transaction>
+    <Transaction>2014/10/12 16:10:21.000.248,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\UC Iniciar Venda.txvuse</Transaction>
+    <Transaction>2014/10/12 16:10:40.000.531,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Use Case Diagram1.txvuse</Transaction>
+    <Transaction>2014/10/12 16:14:40.000.816,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Use Case Nova Venda.txvuse</Transaction>
+    <Transaction>2014/10/12 16:14:40.000.801,c:\documents and settings\administrador\meus documentos\fabio-labs\pdv\modelsupport_pdv\use case diagram1.txvuse=</Transaction>
+    <Transaction>2014/10/12 16:23:09.000.915,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Item\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:23:09.000.975,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Venda\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:23:09.000.945,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Fachada\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:23:10.000.136,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\ControleVenda\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:23:10.000.066,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\RepositorioItem\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:23:10.000.116,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\PDV\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:23:10.000.006,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\TelaPrincipal\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:23:10.000.036,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\AClassRef\default.txaPackage</Transaction>
+    <Transaction>2014/10/12 16:41:18.000.298,c:\documents and settings\administrador\meus documentos\fabio-labs\pdv\modelsupport_pdv\use case nova venda.txvuse=</Transaction>
+    <Transaction>2014/10/12 16:43:16.000.954,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Use Case Diagram1.txvuse</Transaction>
+    <Transaction>2014/10/12 16:43:30.000.984,c:\documents and settings\administrador\meus documentos\fabio-labs\pdv\modelsupport_pdv\use case diagram1.txvuse=</Transaction>
+    <Transaction>2014/10/12 16:43:31.000.024,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\UC Adicionar Item.txvuse</Transaction>
+    <Transaction>2014/10/12 16:45:30.000.913,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\Use Case Diagram1.txvuse</Transaction>
+    <Transaction>2014/10/12 17:20:41.000.594,c:\documents and settings\administrador\meus documentos\fabio-labs\pdv\modelsupport_pdv\use case diagram1.txvuse=</Transaction>
+    <Transaction>2014/10/12 17:20:41.000.624,=C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\ModelSupport_PDV\UC Finalizar Venda.txvuse</Transaction>
+  </Transactions>
+</BorlandProject>

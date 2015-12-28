@@ -1,0 +1,37 @@
+object FormDefault: TFormDefault
+  Left = 0
+  Top = 0
+  BiDiMode = bdLeftToRight
+  Caption = 'Default Screen'
+  ClientHeight = 400
+  ClientWidth = 600
+  Position = poDesktopCenter
+  Transparency = False
+  Visible = False
+  StyleLookup = 'backgroundstyle'
+  object PnButtons: TPanel
+    Align = alBottom
+    Position.Point = '(0,352)'
+    Width = 600.000000000000000000
+    Height = 48.000000000000000000
+    TabOrder = 8
+  end
+  object btnNext: TButton
+    Position.Point = '(494,358)'
+    Width = 97.000000000000000000
+    Height = 35.000000000000000000
+    TabOrder = 9
+    StaysPressed = False
+    IsPressed = False
+    Text = 'Next'
+  end
+  object btnCancel: TButton
+    Position.Point = '(8,358)'
+    Width = 97.000000000000000000
+    Height = 35.000000000000000000
+    TabOrder = 10
+    StaysPressed = False
+    IsPressed = False
+    Text = 'Cancel'
+  end
+end

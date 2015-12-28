@@ -1,0 +1,139 @@
+Criando um certificado digital:
+
+Prerequisitos:
+O java deve estar instalado e configurado.
+
+Instalar o OPENSSL na pasta: c:\OpenSSL-Win32
+
+[ERRO RESOLVIDO 1] - Setar o caminho do arquivo de configuração OpenSSL.cfg para c:\Openssl\bin utilizando o comando:
+set OPENSSL_CONF=c:\OpenSSL-Win32\bin\openssl.cfg
+
+Criar o diretório: C:\CertificadoSSL
+
+
+
+**************************************************************************************************************************************************************************************
+////////////////////////////////// Criando o certificado ////////////////////////////////// 
+ 
+[Etapa 1]- Criando sua propria unidade certificadora
+
+openssl req -new -newkey rsa:1024 -nodes -out C:\CertificadoSSL\CA.csr -keyout C:\CertificadoSSL\CA.key
+
+Preencha as informações solicitas:
+ 
+Country Name (2 letter code) [AU]:BR
+State or Province Name (full name) [Some-State]:Pernambuco
+Locality Name (eg, city) []:Recife
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:AGFA
+Organizational Unit Name (eg, section) []:AGFA
+Common Name (eg, YOUR name) []:agfa.com
+Email Address []:fabio.silva@agfa.com
+A challenge password []:agfa10
+An optional company name []:AGFA HEALTHCARE
+
+
+[Etapa 2]- Gerando Chaves Privadas (Arquivo CA.pem)
+
+openssl x509 -trustout -signkey "C:\CertificadoSSL\CA.key" -days 1825 -req -in "C:\CertificadoSSL\CA.csr" -out "C:\CertificadoSSL\CA.pem"
+
+
+[Etapa 3]- Gerando os Certificados com o Keytools
+
+keytool -kpair -keystore "C:\CertificadoSSL\agfa.keystore"     -alias agfa       -keyalg RSA
+
+Preencha os campos:
+
+Enter keystore password: agfa10
+What is your first and last name?
+  [Unknown]:  Fabio
+What is the name of your organizational unit?
+  [Unknown]:  AGFA
+What is the name of your organization?
+  [Unknown]:  AGFA
+What is the name of your City or Locality?
+  [Unknown]:  Recife
+What is the name of your State or Province?
+  [Unknown]:  Pernambuco
+What is the two-letter country code for this unit?
+  [Unknown]:  BR
+Is CN=admin, OU=Softwell Solutions, O= Softwell Solutions, L=Salvador, ST=Bahia, C=BR correct?
+  [no]:  s
+Enter key password for <tomcat orother client aplication>
+     (RETURN if same as keystore password): agfa10
+
+
+[Etapa 4]- Criando certificado do cliente
+
+openssl req -new -newkey rsa:1024 -nodes -out "C:\CertificadoSSL\agfa_cert_client.req" -keyout "C:\CertificadoSSL\agfa_cert_client.key"
+
+Country Name (2 letter code) [AU]:BR
+State or Province Name (full name) [Some-State]:Pernambuco
+Locality Name (eg, city) []:Recife
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:
+Organizational Unit Name (eg, section) []:
+Common Name (eg, YOUR name) []:agfa.com
+Email Address []:
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:agfa10
+An optional company name []:
+
+[Etapa 5]- Assinar os certificados
+[OBS]: Importando as informações da Chave Privada Para o arquivo keystore do Servidor
+
+keytool -import -keystore "C:\CertificadoSSL\agfa.keystore" -file "C:\CertificadoSSL\CA.pem" -alias myautoCA
+
+Enter keystore password:  agfa10
+Owner: EMAILADDRESS=admin@softwell.com.br, CN=localhost, OU=Softwell Solutions,
+O=Softwell Solutions, L=Salvador, ST=Bahia, C=BR
+Issuer: EMAILADDRESS=admin@softwell.com.br, CN=localhost, OU=Softwell Solutions,
+ O=Softwell Solutions, L=Salvador, ST=Bahia, C=BR
+Serial number: e4d11b87e3619e81
+Valid from: Wed Aug 13 14:12:31 BRT 2008 until: Mon Aug 12 14:12:31 BRT 2013
+Certificate fingerprints:
+         MD5:  F1:35:6F:42:1E:48:CA:0C:7D:C5:78:77:76:74:52:8C
+         SHA1: 2B:9D:D4:E4:C9:92:79:54:62:33:BA:4D:B4:52:15:4B:C2:E5:DB:26
+Trust this certificate? [no]:  s/yes
+Certificate was added to keystore
+
+[Etapa 6]- Assinando o Certificado do Cliente
+
+openssl x509 -req -in "C:\CertificadoSSL\agfa_cert_client.req" -CA "C:\CertificadoSSL\CA.pem" -CAkey "C:\CertificadoSSL\CA.key" -CAcreateserial -out "C:\CertificadoSSL\agfa_cert_client.pem"
+
+[Etapa 7]- Gerando o Arquivo CLIENTE.p12
+[OBS]:O arquivo CLIENTE.p12 contém as informações do certificado digital gerado e da chave privada do servidor
+
+
+[Etapa 8]- Exportando o Certificado apartir do .keystore
+keytool -export -alias agfa -file "C:\CertificadoSSL\agfa_cert_server.crt" -keystore "C:\CertificadoSSL\agfa.keystore" -storepass agfa10
+
+keytool -genkey -alias agfa -keyalg RSA -validity 3650
+
+Listando o conteúdo do Keystore
+keytool -list -keystore "C:\CertificadoSSL\agfa.keystore" -storepass agfa10
+
+
+
+**************************************************************************************************************************************************************************************
+Erros ocorridos durante o processo:
+
+Little issue with OpenSSL for Windows came out recently when I tried to create certificate request. Just after installation when tried to generate cert request got error message:
+1
+WARNING: can't open config file: /usr/local/ssl/openssl.cnf
+2
+Unable to load config info from /usr/local/ssl/openssl.cnf
+Reason was that by default OpenSSL couldn’t find configuration file (even if it was located in same folder as excutable file).
+So, to fix it just set environmental variable with information where openssl.cfg file is located:
+1
+set OPENSSL_CONF=c:\OpenSSL-Win32\bin\openssl.cfg
+You can consider adding this to system environmental variables.
+
+
+
+**************************************************************************************************************************************************************************************
+Referências:
+
+http://suporte.softwell.com.br/maker/manual/dicas_e_truques/certificacao_digital_ambiente_webrun.htm
+http://www.startux.de/index.php/java/44-dealing-with-java-keystoresyvComment44
+http://blog.skufel.net/2012/10/config-snippets-openssl-for-windows-cant-find-openssl-cfg/ {[ERRO RESOLVIDO 1]}
+http://www.herongyang.com/JDK/keytool-export-import-Certificates.html                     {[Etapa 8]}

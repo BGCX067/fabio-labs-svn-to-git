@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{632DCAD9-16EA-433A-AC4E-E70909D62AF6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="WebBrokerClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CostumerDataServer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="WebBrokerClient">
+        <MSBuild Projects="WebBrokerClient.dproj"/>
+    </Target>
+    <Target Name="WebBrokerClient:Clean">
+        <MSBuild Projects="WebBrokerClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebBrokerClient:Make">
+        <MSBuild Projects="WebBrokerClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CostumerDataServer">
+        <MSBuild Projects="CostumerDataServer.dproj"/>
+    </Target>
+    <Target Name="CostumerDataServer:Clean">
+        <MSBuild Projects="CostumerDataServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CostumerDataServer:Make">
+        <MSBuild Projects="CostumerDataServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="WebBrokerClient;CostumerDataServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="WebBrokerClient:Clean;CostumerDataServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="WebBrokerClient:Make;CostumerDataServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

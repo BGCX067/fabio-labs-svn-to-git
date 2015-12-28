@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2015/02/06 13:25:12.776.pas,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Unit5.pas=D:\AGFA\fabio-labs\Quadro de Horario\Prototipo\InterfaceDoUsuario.pas</Transaction>
+    <Transaction>2015/02/06 13:25:12.776.dfm,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Unit5.dfm=D:\AGFA\fabio-labs\Quadro de Horario\Prototipo\InterfaceDoUsuario.dfm</Transaction>
+    <Transaction>2015/02/06 13:25:25.936.dproj,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\Project1.dproj=D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\PQuadroDeHorario.dproj</Transaction>
+    <Transaction>2015/02/06 13:25:35.738.dproj,D:\Users\fabio.lindemberg\Documents\RAD Studio\Projects\PQuadroDeHorario.dproj=D:\AGFA\fabio-labs\Quadro de Horario\Prototipo\PQuadroDeHorario.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

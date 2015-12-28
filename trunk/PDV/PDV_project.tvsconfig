@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="Gendoc.Images" Type="System.Boolean" Value="True" Category="General" IsBrowsable="False" />
+  <Option Name="Gendoc.NavigationTree" Type="System.Boolean" Value="True" Category="General" IsBrowsable="False" />
+  <Option Name="Gendoc.LaunchBrowser" Type="System.Boolean" Value="True" Category="General" IsBrowsable="False" />
+  <Option Name="Gendoc.OutputFolder" Type="System.String" Value="C:\Documents and Settings\Administrador\Meus documentos\fabio-labs\PDV\Documentação\out\doc" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Venda" Type="System.String" Value="Venda" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ControleVenda" Type="System.String" Value="ControleVenda" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Fachada" Type="System.String" Value="Fachada" Category="General" IsBrowsable="False" />
+</TgConfig>

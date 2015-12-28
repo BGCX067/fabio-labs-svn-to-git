@@ -1,0 +1,74 @@
+inherited fStep4: TfStep4
+  Caption = 'Step 4 - Configuring code generation'
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  inherited PnButtons: TPanel
+    Position.Point = '(0,352)'
+  end
+  inherited btnNext: TButton
+    Position.Point = '(494,358)'
+    OnClick = btnNextClick
+    Text = 'Finish'
+  end
+  inherited btnCancel: TButton
+    Position.Point = '(8,358)'
+  end
+  object cbCreateSigletonDBConnection: TCheckBox
+    Position.Point = '(15,15)'
+    Width = 250.000000000000000000
+    Height = 19.000000000000000000
+    ClipParent = True
+    TabOrder = 3
+    IsChecked = False
+    Text = 'Create a Sigleton Data Base Connection'
+  end
+  object cbCreateSliceControl: TCheckBox
+    Position.Point = '(15,30)'
+    Width = 250.000000000000000000
+    Height = 19.000000000000000000
+    TabOrder = 4
+    IsChecked = False
+    Text = 'Create a Slice Control'
+  end
+  object cbCreateFacadeWithUI: TCheckBox
+    Position.Point = '(15,45)'
+    Width = 250.000000000000000000
+    Height = 19.000000000000000000
+    TabOrder = 5
+    IsChecked = False
+    Text = 'Create a Facade With User Interface'
+  end
+  object edTargetLocation: TEdit
+    Position.Point = '(15,88)'
+    Width = 482.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 6
+    ReadOnly = False
+    Password = False
+    Text = 
+      'C:\Documents and Settings\Administrador\Meus documentos\fabio-la' +
+      'bs\AROM\samples'
+  end
+  object lbTargetLocation: TLabel
+    Position.Point = '(15,72)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 7
+    Text = 'Target Location'
+  end
+  object lbLog: TLabel
+    Position.Point = '(15,184)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 8
+    Text = 'Log'
+  end
+  object mmLog: TMemo
+    Position.Point = '(16,200)'
+    Width = 569.000000000000000000
+    Height = 137.000000000000000000
+    TabOrder = 9
+    UseSmallScrollBars = True
+    WordWrap = False
+  end
+end

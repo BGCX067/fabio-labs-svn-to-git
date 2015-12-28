@@ -1,0 +1,33 @@
+inherited fStep1: TfStep1
+  Caption = 'Step 1 - Select Your Data Base Connection'
+  Position = poScreenCenter
+  inherited PnButtons: TPanel
+    Position.Point = '(0,352)'
+    TabOrder = 0
+  end
+  inherited btnNext: TButton
+    Position.Point = '(494,358)'
+    OnClick = btnNextClick
+    TabOrder = 1
+  end
+  inherited btnCancel: TButton
+    Position.Point = '(8,358)'
+    TabOrder = 2
+  end
+  object cbBDEAliasList: TComboBox
+    Position.Point = '(15,40)'
+    Width = 233.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 3
+    ItemIndex = -1
+  end
+  object lbBDEAliasList: TLabel
+    Position.Point = '(15,24)'
+    Width = 125.500000000000000000
+    Height = 13.500000000000000000
+    TabOrder = 4
+    AutoSize = True
+    Text = 'Choose your Connection'
+    WordWrap = False
+  end
+end
